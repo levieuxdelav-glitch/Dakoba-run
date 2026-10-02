@@ -1,0 +1,26 @@
+<!doctype htlml> <html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Dakoba Run</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="hud">
+    <div id="score">Score: 0</div>
+    <div id="level">Niveau: 1</div>
+    <div id="best">Meilleur: 0</div>
+  </div>  <div id="menu">
+    <h1>Dakoba Run</h1>
+    <button id="startBtn">Jouer</button>
+  </div><div id="gameOver" class="hidden">
+    <h2>Game Over</h2>
+    <p id="finalScore">Score: 0</p>
+    <button id="retryBtn">Rejouer</button>
+  </div>!-- Touch controls visibles sur mobile --><div id="touchControls">
+    <div class="touchBtn" data-dir="left">◀</div>
+    <div class="touchBtn" data-dir="jump">▲</div>
+    <div class="touchBtn" data-dir="right">▶</div>
+  </div> < script type="module" src=/src/main.js"></script>
+</body>
+</html>
