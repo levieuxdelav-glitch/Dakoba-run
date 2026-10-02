@@ -1,0 +1,12 @@
+{
+ "name": "Dakoba Run",
+ "short_name": "Dakoba",
+ "start_url": "/Dakoba-run/",
+ "display": "standalone",
+ "background_color": "#0b1020",
+ "theme_color": "#111827",
+ "orientation": "landscape",
+ "icons": [
+    { "src": "/icon.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
